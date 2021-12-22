@@ -1,0 +1,7 @@
+name: ScreamingTrees
+description: This plugin makes trees scream and bleed when they are cut down.
+version: ${project.version}
+authors: ["KRE8TIV", "FunnyGopher", "Optic_Fusion1"]
+main: optic_fusion1.screamingtrees.ScreamingTrees
+api-version: 1.18
+depends: ["EffectLib"]

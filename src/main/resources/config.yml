@@ -1,0 +1,66 @@
+# Configuration file for ScreamingTrees
+
+# TreeScream
+# Allowed - Whether or not the tree will scream when chopped down
+# Chance - The chance of the tree screaming when chopped out of 100
+
+# TreeBleed
+# Allowed - Whether or not the tree will bleed when when chopped down
+
+# TreeSpeak
+# Allowed - Whether or not the the tree will say things to the player
+# Chance - The chance of the tree saying something to the player out of 100
+# Messages - The messages the tree will say to the player
+
+# TreeThrow
+# Allowed - Whether or not the the tree will throw things at the player
+# Chance - The chance of the tree throwing something at the player out of 100
+# Damage - Damage taken by the player the tree threw at out of 20 Ex: half a heart = 1, one heart = 2
+
+# Worlds
+# AllWorlds - true: Trees in all worlds will scream, bleed, and speak / false: Trees will only scream, bleed, and speak in defined worlds
+# Worlds - The worlds that trees are allowed to scream, bleed, and speak in
+
+# Biomes
+# AllBiomes - true: Trees in all biomes will scream, bleed, and speak / false: Trees will only scream, bleed, and speak in defined biomes
+# Biomes - The biomes that trees are allowed to scream, bleed and speak in
+
+TreeScream:
+  Allowed: true
+  Chance: 25
+  
+TreeBleed:
+  Allowed: true
+  Chance: 75
+
+TreeSpeak:
+  Allowed: true
+  Chance: 25
+  Messages:
+  - Did you just swing your axe at me?!
+  - The horror!
+  - Trees have feelings too!
+  - I'm in so much pain!
+  - You're making a mistake!
+  - Think about the children!
+  - The wood is cursed!
+  - No more, please.
+  - Stop the bleeding!
+  - Why would you do such a thing!
+  -
+
+TreeThrow:
+  Allowed: true
+  Chance: 15
+  Damage: 0
+
+Worlds:
+  AllWorlds: true
+  Worlds:
+  -
+  
+Biomes:
+  AllBiomes: true
+  Biomes:
+  -
+  
